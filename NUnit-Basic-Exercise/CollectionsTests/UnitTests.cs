@@ -1,3 +1,5 @@
+require 'coveralls'
+Coveralls.wear!
 using NUnit.Framework;
 using System;
 using System.Linq;
