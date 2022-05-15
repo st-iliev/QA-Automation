@@ -16,8 +16,8 @@ namespace Nunit_API_tests
         public void Setup()
         {
             client = new RestClient("https://api.github.com");
-            request = new RestRequest("/repos/st-iliev/QA-Automation/issues");
-            client.Authenticator = new HttpBasicAuthenticator("st-iliev", "USE YOUR TOKEN HERE");
+            request = new RestRequest("/repos/USE YOUR USERNAME/QA-Automation/issues");
+            client.Authenticator = new HttpBasicAuthenticator("USE YOUR USERNAME", "USE YOUR TOKEN HERE");
         }
         private async Task<Issue> CreateIssue(string title, string body)
         {
@@ -58,7 +58,7 @@ namespace Nunit_API_tests
         [Test]
         public async Task APIRequestGetIssueByNumber()
         {
-            request = new RestRequest("/repos/st-iliev/QA-Automation/issues/10");
+            request = new RestRequest("/repos/USE YOUR USERNAME/USE YOUR REPOSITORY/issues/10");
             var response = await client.ExecuteAsync(request);
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
             var issue = JsonSerializer.Deserialize<Issue>(response.Content);
@@ -80,14 +80,14 @@ namespace Nunit_API_tests
         public async Task APIRequestEditExistIssue()
         {
             string newTitle = "Edited from RestSharp";
-            request = new RestRequest("/repos/st-iliev/QA-Automation/issues/40");
+            request = new RestRequest("/repos/USE YOUR USERNAME/USE YOUR REPOSITORY/issues/40");
             var issue = await EditIssue(newTitle);
             Assert.AreEqual(newTitle, issue.title);
         }
         [Test]
         public async Task APIRequestRetriveAllCommentsFromIssue()
         {
-            request = new RestRequest("/repos/st-iliev/QA-Automation/issues/13/comments");
+            request = new RestRequest("/repos/USE YOUR USERNAME/USE YOUR REPOSITORY/issues/13/comments");
             var response = await client.ExecuteAsync(request);
             var issueComments = JsonSerializer.Deserialize<List<Issue>>(response.Content);
             Assert.Greater(issueComments.Count, 0);
@@ -101,7 +101,7 @@ namespace Nunit_API_tests
         [Test]
         public async Task APIRequestRetriveLabelsFromIssue()
         {
-            request = new RestRequest("/repos/st-iliev/QA-Automation/issues/12/labels");
+            request = new RestRequest("/repos/USE YOUR USERNAME/USE YOUR REPOSITORY/issues/12/labels");
             var respone = await client.ExecuteAsync(request);
             var issue = JsonSerializer.Deserialize<List<Issue>>(respone.Content);
             Assert.Greater(issue.Count, 0);
