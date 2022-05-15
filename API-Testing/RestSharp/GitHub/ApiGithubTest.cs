@@ -16,7 +16,7 @@ namespace Nunit_API_tests
         public void Setup()
         {
             client = new RestClient("https://api.github.com");
-            request = new RestRequest("/repos/USE YOUR USERNAME/QA-Automation/issues");
+            request = new RestRequest("/repos/USE YOUR USERNAMEUSE YOUR REPOSITORY/issues");
             client.Authenticator = new HttpBasicAuthenticator("USE YOUR USERNAME", "USE YOUR TOKEN HERE");
         }
         private async Task<Issue> CreateIssue(string title, string body)
