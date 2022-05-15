@@ -25,4 +25,4 @@
  <br>
   - Delete Comment by ID
 </details>
-### To work all test you need to write your *"username"* *"repository"* and *"token"* in enviroment variabels.
+To work all test you need to write your *"username"* *"repository"* and *"token"* in enviroment variabels.
