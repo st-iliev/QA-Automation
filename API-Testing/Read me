@@ -1,3 +1,3 @@
 # **GitHub API tests.**
-Folders contains collection of API test for GitHub Issues and enviroment for them.
-To work all test you need to put your "username" "repository" and "token" in enviroment variabels.
+## Folders contains collection of API test for GitHub Issues and enviroment for them.
+### To work all test you need to put your "username" "repository" and "token" in enviroment variabels.
