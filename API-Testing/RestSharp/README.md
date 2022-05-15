@@ -16,4 +16,5 @@
 <br>
   - Edit Issue
 </details>
+To work all test you need to write your *"username"* *"repository"* and *"token"*.
 
