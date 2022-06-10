@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook RESTful API Tests", "ContactBook RESTful API Tests\ContactBook RESTful API Tests.csproj", "{EC9AF4DD-B97B-4BC7-8FEF-690AADB7DEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook Selenium UI Automation Tests", "ContactBook Selenium UI Automation Tests\ContactBook Selenium UI Automation Tests.csproj", "{D174191B-F0CD-4D48-BFFE-660812A56645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook Android Appium Tests", "ContactBook Android Appium Tests\ContactBook Android Appium Tests.csproj", "{E7B09882-65DE-4BC1-8B0C-9155AAED5BE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC9AF4DD-B97B-4BC7-8FEF-690AADB7DEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9AF4DD-B97B-4BC7-8FEF-690AADB7DEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9AF4DD-B97B-4BC7-8FEF-690AADB7DEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9AF4DD-B97B-4BC7-8FEF-690AADB7DEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D174191B-F0CD-4D48-BFFE-660812A56645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D174191B-F0CD-4D48-BFFE-660812A56645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D174191B-F0CD-4D48-BFFE-660812A56645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D174191B-F0CD-4D48-BFFE-660812A56645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B09882-65DE-4BC1-8B0C-9155AAED5BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B09882-65DE-4BC1-8B0C-9155AAED5BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B09882-65DE-4BC1-8B0C-9155AAED5BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B09882-65DE-4BC1-8B0C-9155AAED5BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FB4E82D-2A53-42CC-BDB0-268E8547D5B7}
+	EndGlobalSection
+EndGlobal
