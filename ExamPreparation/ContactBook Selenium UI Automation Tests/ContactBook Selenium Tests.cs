@@ -9,7 +9,7 @@ namespace ContactBook_Selenium_UI_Automation_Tests
 {
     public class Tests
     {
-        private const string url = "http://localhost:8080/";
+        private const string url = "https://contactbook.nakov.repl.co/";
         WebDriver driver;
         [SetUp]
         public void Setup()
