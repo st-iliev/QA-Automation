@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubRepoBrowser Android Appium Test", "GitHubRepoBrowse Appium Android Test\GitHubRepoBrowser Android Appium Test.csproj", "{EBEA85B9-A9FC-4F15-8DDF-70AB374FEF60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortURL RESTful Test", "ShortURL RESTful Test\ShortURL RESTful Test.csproj", "{CE856A08-6689-4CED-96EA-E72A1B0D59BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortURL Selenium Test", "ShortURL Selenium Test\ShortURL Selenium Test.csproj", "{7CC09CC2-F609-4DD2-8FDC-BC940D5CE89C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBEA85B9-A9FC-4F15-8DDF-70AB374FEF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEA85B9-A9FC-4F15-8DDF-70AB374FEF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEA85B9-A9FC-4F15-8DDF-70AB374FEF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEA85B9-A9FC-4F15-8DDF-70AB374FEF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE856A08-6689-4CED-96EA-E72A1B0D59BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE856A08-6689-4CED-96EA-E72A1B0D59BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE856A08-6689-4CED-96EA-E72A1B0D59BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE856A08-6689-4CED-96EA-E72A1B0D59BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC09CC2-F609-4DD2-8FDC-BC940D5CE89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC09CC2-F609-4DD2-8FDC-BC940D5CE89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC09CC2-F609-4DD2-8FDC-BC940D5CE89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC09CC2-F609-4DD2-8FDC-BC940D5CE89C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {785FE767-5699-439C-B7FA-5EF7C8F184A5}
+	EndGlobalSection
+EndGlobal
