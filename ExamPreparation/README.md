@@ -1,4 +1,4 @@
-# Automated Tests for "Contact Book" App
+# Exam Preparation
 
 ## Automated tests for the ContactBook App:
 
