@@ -31,15 +31,6 @@ namespace NUnitProjectTest_7_Zip_Windows_App
             appiumOptionDesktop.AddAdditionalCapability(MobileCapabilityType.App, "Root");
             desktopDriver = new WindowsDriver<WindowsElement>(new Uri(AppiumServerUri), appiumOptionDesktop);
         }
-
-        [Test]
-        public void Test_7zip_Location()
-        {
-            var locationFolder = driver.FindElementByXPath("/Window/Pane/Pane/ComboBox/Edit");
-            locationFolder.SendKeys(@"C:\Program Files\7-Zip\" + Keys.Enter);
-            var listBoxFiles = driver.FindElementByXPath("/Window/Pane/List");
-            listBoxFiles.SendKeys(Keys.Control + "a");
-        }
         [Test]
         public void Test_7zip_AddToArchive()
         {
