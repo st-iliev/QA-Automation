@@ -8,7 +8,7 @@ namespace TestVivino
     public class Tests
     {
         private const string AppiumServerUri = "http://127.0.0.1:4723/wd/hub";
-        private const string VivinoAppPath = @"C:\vivino_8.18.11-8181203.apk";
+        private const string VivinoAppPath = @"WRITE YOUR APP PATH";
         private const string VivinoAppPackage = "vivino.web.app";
         private const string VivinoAppStartupActivity = "com.sphinx_solution.activities.SplashActivity";
         private const string VivinoTestAccountEmail = "qaautomation@test.bg";
