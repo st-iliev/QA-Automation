@@ -14,7 +14,7 @@ namespace ContactBook_Windows_Appium_Tests
         private AppiumOptions options;
         private const string AppiumUrl = "http://127.0.0.1:4723/wd/hub";
         private const string ContactsBookUrl = "https://contactbook.nakov.repl.co/api";
-        private const string appLocation = @"C:\Exam\ContactBook-DesktopClient.exe";
+        private const string appLocation = @"WRITE YOUR APP PATH";
 
 
         [SetUp]
