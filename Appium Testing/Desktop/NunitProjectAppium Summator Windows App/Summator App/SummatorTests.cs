@@ -22,7 +22,7 @@ namespace NUnitProjectTest_Summator_App
             appiumLocalService = new AppiumServiceBuilder().UsingAnyFreePort().Build();
             appiumLocalService.Start();
             var appiumOptions = new AppiumOptions() { PlatformName = "Windows" };
-            appiumOptions.AddAdditionalCapability(MobileCapabilityType.App, @"E:\QA\QA Automation\Appium\SummatorDesktopApp.exe");
+            appiumOptions.AddAdditionalCapability(MobileCapabilityType.App, @"WRITE YOUR APP PATH");
             driver = new WindowsDriver<WindowsElement>(appiumLocalService, appiumOptions);
             firstField = driver.FindElementByAccessibilityId("textBoxFirstNum");
             secondField = driver.FindElementByAccessibilityId("textBoxSecondNum");
