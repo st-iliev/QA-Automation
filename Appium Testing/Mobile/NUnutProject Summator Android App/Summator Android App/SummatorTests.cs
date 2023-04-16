@@ -8,7 +8,7 @@ namespace NUnitTestProject_Summator__Android_App
     public class Tests
     {
         private const string AppiumServerUri = "http://127.0.0.1:4723/wd/hub";
-        private string SummatroAppPath = @"C:\com.example.androidappsummator.apk";
+        private string SummatroAppPath = @"WRITE YOUR APP PATH";
         private AndroidDriver<AndroidElement> driver;
         private AndroidElement firstField;
         private AndroidElement secondField;
