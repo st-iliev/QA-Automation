@@ -19,7 +19,7 @@ namespace NUnitProjectTest_7_Zip_Windows_App
         public void Setup()
         {
             var appiumOptions = new AppiumOptions() { PlatformName = "Windows" };
-            appiumOptions.AddAdditionalCapability(MobileCapabilityType.App, @"C:\Program Files\7-Zip\7zFM.exe");
+            appiumOptions.AddAdditionalCapability(MobileCapabilityType.App, @"WRITE YOUR APP PATH");
             driver = new WindowsDriver<WindowsElement>(new Uri(AppiumServerUri), appiumOptions);
             workDir = Directory.GetCurrentDirectory() + @"\workdir";
             if (Directory.Exists(workDir))
@@ -35,7 +35,7 @@ namespace NUnitProjectTest_7_Zip_Windows_App
         public void Test_7zip_AddToArchive()
         {
             var locationFolder = driver.FindElementByXPath("/Window/Pane/Pane/ComboBox/Edit");
-            locationFolder.SendKeys(@"C:\Program Files\7-Zip\" + Keys.Enter);
+            locationFolder.SendKeys(@"APP PATH" + Keys.Enter);
             var listBoxFiles = driver.FindElementByXPath("/Window/Pane/List");
             listBoxFiles.SendKeys(Keys.Control + "a");
             var addButton = driver.FindElementByXPath("/Window/ToolBar/Button[@Name='Add']");
@@ -68,7 +68,7 @@ namespace NUnitProjectTest_7_Zip_Windows_App
             var dialogButtonOk = driver.FindElementByXPath("/Window/Window/Button[@Name='OK']");
             dialogButtonOk.Click();
             Thread.Sleep(1000);
-            string original7Zip = @"C:\Program Files\7-Zip\7zFM.exe";
+            string original7Zip = @"APP PATH";
             string extracted7Zip = workDir + @"\7zFM.exe";
             FileAssert.AreEqual(original7Zip, extracted7Zip);
         }
