@@ -9,7 +9,7 @@ namespace NUnitTestProject_ConctactBook_Android_App
     public class Tests
     {
         private const string AppiumServerUri = "http://127.0.0.1:4723/wd/hub";
-        private string ContactBookAppPath = @"C:\contactbook-androidclient.apk";
+        private string ContactBookAppPath = @"WRITE YOUR APP PATH";
         private const string ApiServiceUrl = "https://contactbook.nakov.repl.co/api";
         private WebDriverWait wait;
         private AndroidDriver<AndroidElement> driver;
