@@ -13,7 +13,7 @@ namespace ContactBook_Android_Appium_Tests
         private AppiumOptions options;
         private const string appiumUrl = "http://127.0.0.1:4723/wd/hub";
         private const string contactBookUrl = "https://contactbook.nakov.repl.co/api";
-        private const string appLocation = @"C:\Exam\contactbook-androidclient.apk";
+        private const string appLocation = @"WRITE YOUR APP PATH";
         [SetUp]
         public void Setup()
         {
